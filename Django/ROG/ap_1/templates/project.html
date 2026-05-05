@@ -1,0 +1,275 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROG - Republic Of Gamers</title>
+    <link rel="stylesheet" href="{% static 'css/project.css'%}">
+    <link rel="icon" href="{% static 'images/image2/WhatsApp Image 2024-10-09 at 18.11.54_f43b0da1.jpg'%}" type="image/jpg">
+</head>
+
+<body>
+
+    <!-- ===== HEADER / NAVIGATION BAR ===== -->
+    <header>
+        <div>
+            <img src="{% static 'images/image2/WhatsApp Image 2024-10-09 at 18.11.54_f43b0da1.jpg'%}" alt="ROG Logo" class="logo">
+        </div>
+
+        <div id="clock">00:00:00</div>
+
+        <nav>
+            <ul id="un_list1">
+
+                <li class="menu">
+                    <p class="navbar_titles1">PRODUCTS</p>
+                    <ul class="subMenu">
+                        <li class="navbar_elements navbar_titles1_e">Laptops</li>
+                        <li class="navbar_elements navbar_titles1_e">Phones</li>
+                        <li class="navbar_elements navbar_titles1_e">Desktops</li>
+                        <li class="navbar_elements navbar_titles1_e">Gaming Handhelds</li>
+                        <li class="navbar_elements navbar_titles1_e">Motherboards</li>
+                        <li class="navbar_elements navbar_titles1_e">Graphic Cards</li>
+                        <li class="navbar_elements navbar_titles1_e">Monitors</li>
+                        <li class="navbar_elements navbar_titles1_e">Cooling</li>
+                        <li class="navbar_elements navbar_titles1_e">Power Supply Units</li>
+                        <li class="navbar_elements navbar_titles1_e">Networking</li>
+                        <li class="navbar_elements navbar_titles1_e">Cases</li>
+                        <!-- FIXED: typo "Graphc" → "Graphic" -->
+                        <li class="navbar_elements navbar_titles1_e">External Graphic Docks</li>
+                        <li class="navbar_elements navbar_titles1_e">Keyboards</li>
+                        <!-- FIXED: & → &amp; for valid HTML -->
+                        <li class="navbar_elements navbar_titles1_e">Mice &amp; Mouse Pads</li>
+                        <li class="navbar_elements navbar_titles1_e">Headsets &amp; Audio</li>
+                        <li class="navbar_elements navbar_titles1_e">Apparel, Bags &amp; Gear</li>
+                        <li class="navbar_elements navbar_titles1_e">Streaming Kits</li>
+                        <li class="navbar_elements navbar_titles1_e">Controllers</li>
+                        <li class="navbar_elements navbar_titles1_e">Storage</li>
+                        <li class="navbar_elements navbar_titles1_e">Power &amp; Protection Gadgets</li>
+                        <hr>
+                        <li class="navbar_elements">ASUS TUF Gaming</li>
+                    </ul>
+                </li>
+
+                <li class="menu">
+                    <p class="navbar_titles2">INNOVATIONS</p>
+                    <ul class="subMenu">
+                        <li class="navbar_elements navbar_titles2_e">AniMe Matrix™ Pixel Editor</li>
+                        <li class="navbar_elements navbar_titles2_e">ROG Nebula Display &amp; Nebula HDR</li>
+                        <li class="navbar_elements navbar_titles2_e">ROG Intelligent Cooling</li>
+                        <li class="navbar_elements navbar_titles2_e">Customizable Armor Cap</li>
+                        <li class="navbar_elements navbar_titles2_e">Aura</li>
+                        <li class="navbar_elements navbar_titles2_e">Armoury Crate</li>
+                        <li class="navbar_elements navbar_titles2_e">GPU Tweak III</li>
+                    </ul>
+                </li>
+
+                <li class="menu">
+                    <p class="navbar_titles3">DOWNLOADS</p>
+                    <ul class="subMenu">
+                        <li class="navbar_elements navbar_titles3_e">ROG Opera GX</li>
+                        <li class="navbar_elements navbar_titles3_e">Wallpapers</li>
+                        <li class="navbar_elements navbar_titles3_e">Aura Sync</li>
+                        <li class="navbar_elements navbar_titles3_e">Armoury Crate</li>
+                        <li class="navbar_elements navbar_titles3_e">GPU Tweak III</li>
+                        <li class="navbar_elements navbar_titles3_e">ROG Citadel XV</li>
+                    </ul>
+                </li>
+
+                <li class="menu">
+                    <p class="navbar_titles4">COMMUNITY</p>
+                    <ul class="subMenu">
+                        <li class="navbar_elements navbar_titles4_e">News and Articles</li>
+                        <li class="navbar_elements navbar_titles4_e">ROG Elite Program</li>
+                        <li class="navbar_elements navbar_titles4_e">Team ROG</li>
+                        <li class="navbar_elements navbar_titles4_e">ROG Forum</li>
+                        <li class="navbar_elements navbar_titles4_e">ROG Game Deals</li>
+                        <li class="navbar_elements navbar_titles4_e">Pressroom</li>
+                    </ul>
+                </li>
+
+                <li class="menu">
+                    <!-- FIXED: WHAT'S → WHAT&#39;S for valid HTML apostrophe -->
+                    <p class="navbar_titles5">WHAT&#39;S HOT</p>
+                    <ul class="subMenu">
+                        <li class="navbar_elements navbar_titles5_e">AI PCs Gaming Laptops</li>
+                        <li class="navbar_elements navbar_titles5_e">CES 2024 ROG Launch Event</li>
+                        <li class="navbar_elements navbar_titles5_e">ROG CES 2024 Gaming Laptops</li>
+                        <li class="navbar_elements navbar_titles5_e">ROG MBTI Gamer Card</li>
+                        <li class="navbar_elements navbar_titles5_e">Game Like You Used To</li>
+                        <li class="navbar_elements navbar_titles5_e">Gaming is Creating: ROG Zephyrus G14/16</li>
+                        <li class="navbar_elements navbar_titles5_e">TeamZeph</li>
+                        <li class="navbar_elements navbar_titles5_e">PLAY and CREATE your best game</li>
+                        <li class="navbar_elements navbar_titles5_e">#whereismyally</li>
+                        <li class="navbar_elements navbar_titles5_e">GeForce Game Bundle – Star Wars Outlaws</li>
+                        <li class="navbar_elements navbar_titles5_e">For Those Who Dare</li>
+                        <li class="navbar_elements navbar_titles5_e">ROG SAGA</li>
+                        <li class="navbar_elements navbar_titles5_e">Rate Your Gear Campaign</li>
+                        <li class="navbar_elements navbar_titles5_e">Windows 11</li>
+                    </ul>
+                </li>
+
+                <!-- FIXED: <p> inside <ul> is invalid HTML → moved outside or wrapped -->
+                <li id="support_li">
+                    <p id="support_title">SUPPORT</p>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div id="asus_logo">
+            <img src="{% static 'images/image2/Screenshot 2024-10-09 181928.png'%}" alt="ASUS Logo">
+        </div>
+    </header>
+
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+
+        <!-- Create Account Banner -->
+        <section>
+            <div id="div_account">
+                <a href="{% url 'register' %}">
+                    <p id="create_account">Create an account for better product support!</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Image Slider -->
+        <!-- FIXED: button-container was inside section but outside the slider wrapper;
+             restructured so buttons overlay the slider properly -->
+        <section class="slider-wrapper">
+            <div class="button-container">
+                <!-- FIXED: type="submit" inside a non-form context → changed to type="button" -->
+                <button type="button" id="list2_btn_left" aria-label="Previous slide">&#8592;</button>
+                <button type="button" id="list2_btn_right" aria-label="Next slide">&#8594;</button>
+            </div>
+            <nav>
+                <ul id="un_list2">
+                    <li class="list_image"><img src="{% static 'images/projectImages/WhatsApp Image 2024-10-08 at 16.33.26_48a64a40.jpg'%}" alt="ROG Product 1"></li>
+                    <li class="list_image"><img src="{% static 'images/projectImages/WhatsApp Image 2024-10-08 at 16.33.40_1268fe3b.jpg'%}" alt="ROG Product 2"></li>
+                    <li class="list_image"><img src="{% static 'images/projectImages/WhatsApp Image 2024-10-08 at 16.33.50_20eaa6dd.jpg'%}" alt="ROG Product 3"></li>
+                    <li class="list_image"><img src="{% static 'images/projectImages/WhatsApp Image 2024-10-08 at 16.34.00_b152ce68.jpg'%}" alt="ROG Product 4"></li>
+                    <li class="list_image"><img src="{% static 'images/projectImages/WhatsApp Image 2024-10-08 at 16.34.06_c0d36d9d.jpg'%} "alt="ROG Product 5"></li>
+                    <li class="list_image"><img src="{% static 'images/projectImages/WhatsApp Image 2024-10-08 at 16.34.19_70b3cd66.jpg'%}" alt="ROG Product 6"></li>
+                </ul>
+            </nav>
+
+            <!-- Slide indicator dots -->
+            <div class="slider-dots" id="sliderDots"></div>
+        </section>
+
+        <!-- Explore Our Products -->
+        <section>
+            <div class="container_products">
+                <h3 id="explore">EXPLORE OUR PRODUCTS</h3>
+                <div class="image-container_products">
+                    <div class="image-box1">
+                        <img src="{% static 'images/image2/image3/h175.png'%}" alt="Laptops">
+                        <p><b>Laptops</b></p>
+                    </div>
+                    <div class="image-box1">
+                        <img src="{% static 'images/image2/image3/h175 (1).png'%}" alt="Motherboards">
+                        <p><b>Motherboards</b></p>
+                    </div>
+                    <div class="image-box1">
+                        <img src="{% static 'images/image2/image3/h175 (2).png'%}" alt="Graphics Cards">
+                        <p><b>Graphics Cards</b></p>
+                    </div>
+                    <div class="image-box1">
+                        <img src="{% static 'images/image2/image3/h175 (3).png'%}" alt="Monitors">
+                        <p><b>Monitors</b></p>
+                    </div>
+                    <div class="image-box1">
+                        <img src="{% static 'images/image2/image3/h175 (4).png'%}" alt="Phones">
+                        <p><b>Phones</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Stories -->
+        <section>
+            <div class="container">
+                <h3 class="hidder-txt">RECENT STORIES</h3>
+                <div class="img-container row-1">
+                    <div class="img-box img-type-1" id="recent1"></div>
+                    <div class="img-box img-type-1" id="recent2"></div>
+                    <div class="img-box img-type-1" id="recent3"></div>
+                </div>
+                <div class="img-container row-2">
+                    <div class="img-box img-type-2" id="recent4"></div>
+                    <div class="img-box img-type-2" id="recent5"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROG In Action -->
+        <section>
+            <div class="ROG_cation_container">
+                <h1 class="action_header_text">ROG IN ACTION</h1>
+                <div class="action_image-container">
+                    <div class="action_image_box">
+                        <img src="{% static 'images/image2/image3/1724807247327.jpeg'%}" alt="Gaming - Frostpunk 2">
+                        <p>|GAMING|<br><b>Surviving Frostpunk 2's frozen hellscape</b> — Frostpunk 2 is a bold sequel that pushes the franchise into uncharted territory...</p>
+                    </div>
+                    <div class="action_image_box">
+                        <img src="{% static 'images/image2/image3/1726892195292.jpeg'%}" alt="ROG Ally - God of War Ragnarok">
+                        <p>|ROG-ALLY|<br><b>God of War: Ragnarok on the ROG Ally and ROG Ally X</b> — optimized settings and performance you can expect...</p>
+                    </div>
+                    <div class="action_image_box">
+                        <img src="{% static 'images/image2/image3/1728009310122.jpeg'%}" alt="ROG Ally - Black Myth Wukong">
+                        <p>|ROG-ALLY|<br><b>Black Myth: Wukong on the ROG Ally and ROG Ally X</b> — optimized settings and performance you can expect...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- FIXED: <p> was orphaned inside a <div> with no semantic meaning → kept but clarified -->
+            <div id="learn_more_wrapper">
+                <p id="learn_more">LEARN MORE &rarr;</p>
+            </div>
+        </section>
+
+        <!-- Join The Republic -->
+        <section>
+            <div id="join_the_republic">
+                <b id="join_text1">THE ART OF THE ROG UNIVERSE</b>
+                <!-- FIXED: removed inline <br> tags — use CSS line-height instead -->
+                <p id="join_text2">
+                    Technology never sleeps, nor should the action. For those keen on winning
+                    power, the Republic of Gamers awaits. Driven by relentless innovation, ROG
+                    is committed to producing out-of-this-world experiences for gamers and enthusiasts everywhere.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+        <div class="footer-content">
+            <nav aria-label="Footer navigation">
+                <ul id="footer_list1">
+                    <li class="footer_list_elements">ABOUT ROG</li>
+                    <li class="footer_list_elements">HOME</li>
+                    <li class="footer_list_elements">NEWSROOM</li>
+                    <li class="footer_list_elements">ACCESSIBILITY HELP</li>
+                </ul>
+            </nav>
+            <hr>
+            <nav aria-label="Legal links">
+                <ul id="footer_list2">
+                    <li class="footer_list_elements">Terms of Use Notice</li>
+                    <li class="footer_list_elements">Privacy Policy</li>
+                    <li class="footer_list_elements">&copy; ASUSTeK Computer Inc. All rights reserved.</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/project.js'%}"></script>
+
+</body>
+</html>
